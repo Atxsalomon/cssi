@@ -13,3 +13,15 @@
 // limitations under the License.
 
 console.log(dataObject);
+let puppyButton = document.querySelector(`#puppyButton`)
+let puppyURL;
+let puppyPicture;
+puppyButton.addEventListener(`click`,() => {
+  console.log(`puperino`)
+  puppyURL = dataObject.data["0"].images.original.url;
+  console.log(puppyURL);
+  puppyPicture = document.createElement(`img`);
+  puppyPicture.src = puppyURL;
+  document.body.appendChild(puppyPicture);
+  console.log(puppyPicture)
+})

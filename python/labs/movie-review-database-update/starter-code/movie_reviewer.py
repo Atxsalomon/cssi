@@ -17,15 +17,31 @@
 inside_movie = {
     "title": "Inside Out",
     "id": "tt2096673",
-    "year_released": 2012,
+    "year_released": 2015,
     "rating": "PG",
-    "score": 7.5,
+    "score": 8.2,
     "out_of": 10,
-    "reviews": 463787
+    "reviews": 489496,
+    "genre": "kiddy",
 }
+inside_movie = {
+    "title": "Inside Out",
+    "id": "tt2096673",
+    "year_released": 2015,
+    "rating": "PG",
+    "score": 8.2,
+    "out_of": 10,
+    "reviews": 489496,
+    "genre": "kiddy",
+}
+
 
 # Do not edit the code above!
 
 # Write your code below to update the information in accordance with its
 # IMDB page: http://www.imdb.com/title/tt2096673/
-
+inside_movie["genre"] = ["horor", "comedy"]
+inside_movie["opinion"] = ["guess ill die"]
+print(
+inside_movie
+)

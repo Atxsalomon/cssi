@@ -1,0 +1,31 @@
+body {margin:0px;}
+
+.center-me{text-align: center;}
+
+#header {}
+
+  #links {
+    background-color: #ffedc5;
+    height: 50px;
+    text-align: center;
+  }
+
+  .link {
+    color: #6f030a;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 2%;
+  }
+#sum {
+
+}
+
+.sum {
+  color: #ffedc5;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 12%;

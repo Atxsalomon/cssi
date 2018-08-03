@@ -17,4 +17,23 @@
 # Replace "pass" with your code
 
 class BankAccount(object):
-    pass
+
+        def __init__(self, lable, balance):
+            self.lable = lable
+            self.balance = balance
+        def __str__(self):
+            return'Acount Name: {Name}\nCurrent Balance:.{balance}' .format(
+                name=self.lable, balance=self.balance)
+        def withdrawl(self, amount):
+            amount <= self.balance and amount > 0:
+            self.balance = self.balance - amount
+        def deposit(self, amount):
+            if amount > 0:
+            self.balance= self.balance + amount
+        def rename(self, name):
+            if name != '':
+                self.lable = name
+        def transfer (self, otheract, amount):
+            if amount > 0 and self.balance >= otheract.balance:
+                self.balance = self.balance - amount
+                otheract.balance = otheract.balance + amount

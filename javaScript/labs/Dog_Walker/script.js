@@ -17,7 +17,7 @@ let dogName1 = "Steve";
 let dogType1 = "beagle";
 
 // Complete Task 1 Below
-
+console.log(`I will walk ${dogName1} at 12:00pm`)
 
 
 let dogName2 = "Joe";
